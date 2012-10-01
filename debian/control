@@ -1,0 +1,14 @@
+Source: mimetypes
+Section: unknown
+Priority: extra
+Maintainer: Oleg Smirnov <oleg.smirnov@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base, rebar
+Standards-Version: 3.9.2
+Homepage: https://github.com/spawngrid/mimetypes
+Vcs-Git: git://github.com/spawngrid/mimetypes.git
+Vcs-Browser: https://github.com/spawngrid/mimetypes
+
+Package: mimetypes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Erlang library to fetch MIME extension/name mappings.
